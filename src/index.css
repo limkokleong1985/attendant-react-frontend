@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+  .input-label{
+    @apply
+    font-medium mb-1 px-1 text-gray-800 dark:text-gray-200
+  }
+}
